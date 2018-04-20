@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2018-04-20
+### Renamed
+- PortableConfiguration
+- PortableConfiguration.Sample
+
 ## 1.0.0 - 2018-03-13
 ### Added
 - ConfigurationData
 - ConfigurationData.Sample
 
 [Unreleased]: https://github.com/j3soon/PortableConfiguration/compare/v1.0.0...HEAD
+[2.0.0]: https://github.com/j3soon/PortableConfiguration/compare/v1.0.0...v2.0.0
