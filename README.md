@@ -1,7 +1,7 @@
-# ConfigurationData
+# PortableConfiguration
 Simple configuration saver
 
-## NuGet: https://www.nuget.org/packages/ConfigurationData/
+## NuGet: https://www.nuget.org/packages/PortableConfiguration/
 
 [ChangeLog](doc/CHANGELOG.md)
 
@@ -10,4 +10,4 @@ Create `Config` by passing the config file path.
 
 ## Examples
 
-See [ConfigurationData.Sample](ConfigurationData.Sample) for more usages.
+See [PortableConfiguration.Sample](PortableConfiguration.Sample) for more usages.

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationData", "ConfigurationData\ConfigurationData.csproj", "{69EAA568-7755-42BE-8C3E-BD99888553CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableConfiguration", "PortableConfiguration\PortableConfiguration.csproj", "{69EAA568-7755-42BE-8C3E-BD99888553CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationData.Sample", "ConfigurationData.Sample\ConfigurationData.Sample.csproj", "{94DA5ED4-9A97-4D2F-925B-387CCDD07DB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableConfiguration.Sample", "PortableConfiguration.Sample\PortableConfiguration.Sample.csproj", "{94DA5ED4-9A97-4D2F-925B-387CCDD07DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

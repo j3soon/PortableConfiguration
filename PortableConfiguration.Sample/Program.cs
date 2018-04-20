@@ -6,11 +6,11 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConfigurationData.Sample
+namespace PortableConfiguration.Sample
 {
     class Program
     {
-        public static string AssemblyDirectory
+        static string AssemblyDirectory
         {
             get
             {

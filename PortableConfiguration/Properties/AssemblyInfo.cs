@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConfigurationData.Sample")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PortableConfiguration")]
+[assembly: AssemblyDescription("Simple configuration saver")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConfigurationData.Sample")]
+[assembly: AssemblyCompany("j3soon")]
+[assembly: AssemblyProduct("PortableConfiguration")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("94da5ed4-9a97-4d2f-925b-387ccdd07db2")]
+[assembly: Guid("69eaa568-7755-42be-8c3e-bd99888553ca")]
 
 // Version information for an assembly consists of the following four values:
 //

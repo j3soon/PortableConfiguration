@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>https://github.com/j3soon/ConfigurationData</projectUrl>
+    <projectUrl>https://github.com/j3soon/PortableConfiguration</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>First release</releaseNotes>
@@ -14,8 +14,8 @@
     <tags>config configuration</tags>
   </metadata>
   <files>
-    <file src="bin\Release\ConfigurationData.dll" target="lib\net45" />
-    <file src="bin\Release\ConfigurationData.pdb" target="lib\net45" />
+    <file src="bin\Release\PortableConfiguration.dll" target="lib\net45" />
+    <file src="bin\Release\PortableConfiguration.pdb" target="lib\net45" />
     <file src="readme.txt" target="" />
   </files>
 </package>

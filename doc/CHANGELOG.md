@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - ConfigurationData
 - ConfigurationData.Sample
 
-[Unreleased]: https://github.com/j3soon/ConfigurationData/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/j3soon/PortableConfiguration/compare/v1.0.0...HEAD
