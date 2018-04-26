@@ -10,20 +10,9 @@ namespace PortableConfiguration.Sample
 {
     class Program
     {
-        static string AssemblyDirectory
-        {
-            get
-            {
-                string codeBase = Assembly.GetExecutingAssembly().CodeBase;
-                UriBuilder uri = new UriBuilder(codeBase);
-                string path = Uri.UnescapeDataString(uri.Path);
-                return Path.GetDirectoryName(path);
-            }
-        }
-
         static void Main(string[] args)
         {
-            Config config = new Config(Path.Combine(AssemblyDirectory, "config"));
+            Config config = new Config(Path.Combine(Config.GetAssemblyDirectory(typeof(Program)), "config"));
             config.DefaultConfigEvent += () =>
             {
                 config["test1"] = "1";
@@ -34,7 +23,7 @@ namespace PortableConfiguration.Sample
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Caught");
+                    Console.WriteLine("1test is invalid config name");
                 }
             };
             config.Load();

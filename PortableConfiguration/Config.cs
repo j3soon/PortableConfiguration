@@ -27,7 +27,15 @@ namespace PortableConfiguration
             }
         }
 
-        public Config(string path)
+        public static String GetAssemblyDirectory(Type type)
+        {
+            String codeBase = type.Assembly.CodeBase;
+            UriBuilder uri = new UriBuilder(codeBase);
+            String path = Uri.UnescapeDataString(uri.Path);
+            return Path.GetDirectoryName(path);
+        }
+
+        public Config(String path)
         {
             FileInfo f = new FileInfo(path);
             _path = f.FullName;
